@@ -23,7 +23,9 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col min-h-screen`}
       >
-        <main className="flex-grow">{children}</main>
+        <main className="flex-grow flex items-center justify-center py-6">
+          {children}
+        </main>
         <Footer />
       </body>
     </html>
