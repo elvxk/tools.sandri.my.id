@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="pt-4 opacity-75">
+    <footer className="py-4 opacity-75">
       <div className="text-center items-center justify-center flex flex-col">
         <Link
           className="flex flex-col justify-between items-center text-sm font-bold"
@@ -19,7 +19,10 @@ const Footer = () => {
           ELVXK TOOL
         </Link>
         <p className="text-sm">
-          Made with love © {new Date().getFullYear()} sandri.my.id.
+          Made with love © {new Date().getFullYear()}{" "}
+          <Link href="sandri.my.id" target="_blank">
+            elvxk
+          </Link>
         </p>
       </div>
     </footer>
