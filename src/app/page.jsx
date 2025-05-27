@@ -1,7 +1,5 @@
 "use client";
-import Footer from "@/components/Footer";
 import ToolCard from "@/components/ToolCard";
-import getData from "@/lib/getData";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 
@@ -16,7 +14,6 @@ const Home = () => {
       });
   }, []);
 
-  // const data = await getData();
   return (
     <div className="container mx-auto px-6">
       <div className="flex gap-6 flex-col items-center justify-center min-h-[70vh]">
