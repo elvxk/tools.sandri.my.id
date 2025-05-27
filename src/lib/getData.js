@@ -1,5 +1,5 @@
 const getData = async () => {
-  const res = await fetch("https://api.sandri.my.id/projects", {
+  const res = await fetch("https://api.pradipta.dev/projects", {
     cache: "no-store",
   });
   if (!res.ok) {
